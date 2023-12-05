@@ -11,7 +11,7 @@ import ProduitDetail from "./components/ProduitDetail";
 import Register from "./Pages/Register/Register";
 import Jewelery from "./Pages/Jewelery/Jewelery";
 import Electronics from "./Pages/Electronics/Electronics";
-import Mens from "./Pages/Mens/mens";
+import Mens from "./Pages/Mens/Mens";
 import Womens from "./Pages/Womens/Womens";
 import Paiement from "./Pages/Paiement/Paiement";
 

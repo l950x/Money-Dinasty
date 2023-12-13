@@ -27,18 +27,17 @@ function App() {
       <div className="app">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Connexion" element={<Login />} />
-          <Route path="/Search" element={<Search />} />
-          <Route path="/Cart" element={<Cart />} />
-          <Route path="/Register" element={<Register />} />
-          <Route path="/Jewelery" element={<Jewelery />} />
-          <Route path="/Electronics" element={<Electronics />} />
-          <Route path="/Womens" element={<Womens />} />
-          <Route path="/Mens" element={<Mens />} />
-          <Route path="/Paiement" element={<Paiement />} />
-          <Route path="/produit/:id" Component={ProduitDetail} /> // :id pour
-          recup l'id
+          <Route path="/Money-Dinasty" element={<Home />} />
+          <Route path="/Money-Dinasty/Connexion" element={<Login />} />
+          <Route path="/Money-Dinasty/Search" element={<Search />} />
+          <Route path="/Money-Dinasty/Cart" element={<Cart />} />
+          <Route path="/Money-Dinasty/Register" element={<Register />} />
+          <Route path="/Money-Dinasty/Jewelery" element={<Jewelery />} />
+          <Route path="/Money-Dinasty/Electronics" element={<Electronics />} />
+          <Route path="/Money-Dinasty/Womens" element={<Womens />} />
+          <Route path="/Money-Dinasty/Mens" element={<Mens />} />
+          <Route path="/Money-Dinasty/Paiement" element={<Paiement />} />
+          <Route path="/Money-Dinasty/produit/:id" Component={ProduitDetail} />
         </Routes>
         <Footer />
       </div>

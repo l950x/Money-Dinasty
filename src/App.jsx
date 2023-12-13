@@ -39,7 +39,7 @@ function App() {
           <Route path="/Money-Dinasty/Paiement" element={<Paiement />} />
           <Route path="/Money-Dinasty/produit/:id" Component={ProduitDetail} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

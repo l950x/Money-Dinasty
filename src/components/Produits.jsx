@@ -18,7 +18,7 @@ const Product = ({ product }) => {
   }, [product.id]);
 
   const goToDesc = (id) => {
-    navigate("/produit/" + id);
+    navigate("/Money-Dinasty/produit/" + id);
   };
 
   const rateStar = (rate) => {
